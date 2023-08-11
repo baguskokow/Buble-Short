@@ -1,6 +1,6 @@
 #include <iostream>
 
-void bubleShort(int myarray[], int n) {
+void bubleSort(int myarray[], int n) {
 	int temp;
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n - 1; j++) {
@@ -26,7 +26,7 @@ int main() {
 	int myarray[6] = {5, 4, 3, 6, 2, 7};
 	int n = sizeof(myarray) / sizeof(myarray[0]);
 
-	bubleShort(myarray, n);
+	bubleSort(myarray, n);
 	printArray(myarray, n);
 
 	return 0;
